@@ -1,0 +1,41 @@
+.container {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+/* .greet {
+  width: 30%;
+  min-height: 100vh;
+  padding: 5px;
+  background-color: antiquewhite;
+} */
+.carouser {
+  /* margin-left: 2.5%; */
+  width: 100%;
+
+  padding: 5px;
+  min-height: 100vh;
+  background-color: rgb(233, 232, 231);
+}
+img {
+  width: 100px;
+  height: 500px;
+}
+.carousel_content {
+  width: 70%;
+  margin-left: 15%;
+}
+
+@media (max-width: 600px) {
+  .carousel_content {
+    height: 200px;
+    color: #fff;
+
+    width: 70%;
+    text-align: center;
+  }
+}

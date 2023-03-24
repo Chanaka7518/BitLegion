@@ -1,0 +1,21 @@
+.footer {
+  background-color: #ffffff;
+}
+
+h2 {
+  border: none;
+  background-color: #ffffff;
+}
+.footer-item {
+  text-align: center;
+  min-height: 150px;
+}
+
+.footer-item ul {
+  padding: 0px;
+  letter-spacing: 1px;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+}

@@ -1,0 +1,19 @@
+.ant-modal {
+  position: relative;
+  top: 10px;
+}
+
+.ant-modal-header {
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 600px) {
+  .ant-modal {
+    width: 90%;
+    height: 100vh !important;
+  }
+  .ant-modal-content {
+    height: 100vh;
+  }
+}

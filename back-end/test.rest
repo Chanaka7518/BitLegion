@@ -1,0 +1,10 @@
+POST http://localhost:5001/api/sendPwdResetLink
+Content-Type: application/json
+
+{
+    "email":"bitlegioninfo@gmail.com"
+    
+}
+#bitlegioninfo@gmail.com 
+# chanaka7518@gmail.com
+# "password":"Chanaka123#"

@@ -1,0 +1,27 @@
+input[type="file"] {
+  display: none;
+}
+
+/* Style the custom button to look like a regular button */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the label to wrap around the custom button and trigger the file input click event */
+label {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* When the user selects a file, show its name */
+.file-name {
+  margin: 10px 0;
+  font-size: 14px;
+}

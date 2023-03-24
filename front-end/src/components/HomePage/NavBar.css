@@ -1,0 +1,103 @@
+/* navbar */
+.nav-container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.test {
+  border: none;
+}
+.alpha-lee {
+  text-align: left;
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.pages-nav a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+  color: black;
+
+  transition: all 0.3s;
+}
+.buttonContainers {
+  width: 200px;
+}
+/* login&signup */
+.open-buttons {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.open-buttons:hover {
+  background-color: white;
+  color: blue;
+}
+
+/*  ---------------- */
+.pages-nav a:hover {
+  color: blue;
+}
+.pages-nav a:focus {
+  color: blue;
+}
+
+.alpha-lee {
+  text-align: left;
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+.alpha-lee h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.alpha-lee a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.alpha-lee a:hover {
+  color: blue;
+}
+/* ////////////////////////////// */
+
+.alpha-lee {
+  text-align: left;
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+.alpha-lee h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.alpha-lee a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.alpha-lee a:hover {
+  color: blue;
+}

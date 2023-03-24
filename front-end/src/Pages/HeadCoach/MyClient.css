@@ -1,0 +1,28 @@
+.email:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .ant-table-thead > tr > th:first-child,
+  .ant-table-tbody > tr > td:first-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ant-table td,
+  .ant-table th {
+    font-size: 10px;
+  }
+
+  .email {
+    font-size: 10px;
+  }
+
+  .ant-modal-title {
+    font-size: 12px;
+  }
+
+  .ant-modal-footer button {
+    font-size: 12px;
+  }
+}
